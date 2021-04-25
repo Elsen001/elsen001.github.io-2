@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+#log {
+  width: 100%;
+  height: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../img/AZ-en-20210322-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/AZ-en-20210322-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+}
+#log nav img {
+  width: 200px;
+  margin-left: 20px;
+}
+#log #login {
+  width: 450px;
+  height: 650px;
+  background-color: red;
+  position: relative;
+  margin: 0 auto;
+  background: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#log #login .sign {
+  width: 320px;
+  height: 450px;
+  margin: 40px auto;
+  background: none;
+  position: absolute;
+  top: 5%;
+}
+#log #login .sign h1 {
+  color: white;
+  margin-bottom: 30px;
+}
+#log #login .sign input:not([type="checkbox"]) {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: none;
+  outline: none;
+  border: none;
+  background-color: #333333;
+  border-radius: 4px;
+}
+#log #login .sign input:not([type="checkbox"])::-webkit-input-placeholder {
+  font-size: 16px;
+}
+#log #login .sign input:not([type="checkbox"]):-ms-input-placeholder {
+  font-size: 16px;
+}
+#log #login .sign input:not([type="checkbox"])::-ms-input-placeholder {
+  font-size: 16px;
+}
+#log #login .sign input:not([type="checkbox"])::placeholder {
+  font-size: 16px;
+}
+#log #login .sign button {
+  width: 100%;
+  height: 50px;
+  background-color: #E50914;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+#log #login .sign label {
+  color: #B3B3B3;
+  margin-left: 2px;
+}
+#log #login .sign a {
+  position: absolute;
+  right: 0;
+  color: #B3B3B3;
+  text-decoration: none;
+}
+#log #login .sign #lab {
+  position: relative;
+  margin-top: 10px;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#log #login .sign #lab label {
+  margin-top: 8px;
+  margin-left: 2px;
+}
+#log #login .sign #social {
+  height: 20px;
+  margin-top: 40px;
+  position: relative;
+}
+#log #login .sign #social a {
+  position: absolute;
+  left: 0;
+  text-decoration: none;
+}
+#log #login .sign #social img {
+  width: 20px;
+}
+#log #login .sign #social span {
+  color: #B3B3B3;
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  left: 25px;
+}
+#log #login .sign #signup {
+  position: relative;
+  color: #B3B3B3;
+  margin-top: 15px;
+}
+#log #login .sign #signup a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+#log #login .sign #signup a:hover {
+  text-decoration: underline;
+}
+#log #login .sign p {
+  margin-top: 10px;
+  color: #B3B3B3;
+  font-size: 14px;
+}
+#log #login .sign p a {
+  position: relative;
+  color: blue;
+  text-decoration: none;
+}
+#log #login .sign p a:hover {
+  text-decoration: underline;
+}
+#log #footer {
+  margin-top: 80px;
+  width: 100%;
+  height: 250px;
+  background: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  color: #B3B3B3;
+  position: relative;
+}
+#log #footer #first {
+  margin-left: 10%;
+  padding-top: 30px;
+}
+#log #footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 70%;
+  margin-left: 10%;
+}
+#log #footer .footer div {
+  width: 25%;
+  margin-top: 2%;
+}
+#log #footer .footer div a {
+  color: #737373;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  #log {
+    background: none;
+    background-color: black;
+  }
+  #log nav img {
+    margin-left: 5px;
+  }
+  #log #footer {
+    margin-top: 0;
+  }
+  #log #login {
+    width: 100%;
+  }
+  #log #login .sign {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+    top: 1%;
+  }
+  #log #login .sign input:not([type="checkbox"]) {
+    width: 100%;
+  }
+  #log #login .sign h1 {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  #log #login .sign button {
+    width: 100%;
+  }
+  #log #login .sign #social a {
+    text-align: left;
+  }
+  #log #login .sign #signup {
+    text-align: left;
+  }
+  #log #login .sign p {
+    text-align: left;
+  }
+  #log #footer .footer {
+    width: 100%;
+  }
+  #log #footer .footer div {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 570px) {
+  #log #footer #first {
+    margin-left: 5%;
+    margin-bottom: 20px;
+  }
+  #log #footer .footer {
+    width: 100%;
+    margin-left: 5%;
+  }
+  #log #footer .footer div {
+    width: 40%;
+  }
+}

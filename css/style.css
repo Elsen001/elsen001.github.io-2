@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: Helvetica, sans-serif;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+#home {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, black), color-stop(70%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.8))), url("../img/AZ-en-20210322-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-image: linear-gradient(to top, black 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.8) 80%), url("../img/AZ-en-20210322-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+}
+#home nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#home nav .logo {
+  margin-left: 5%;
+}
+#home nav .logo img {
+  width: 180px;
+  height: 100px;
+}
+#home .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 5%;
+}
+#home .icon .select {
+  width: 110px;
+  background-color: black;
+  padding: 2px;
+  height: 37px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+#home .icon .select i {
+  color: white;
+  font-size: 12px;
+}
+#home .icon .select select {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+#home .icon .button button {
+  height: 35px;
+  width: 80px;
+  color: white;
+  background-color: #E50914;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-left: 24px;
+  border: none;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  #home {
+    width: 100%;
+    height: 90%;
+  }
+  #home nav .logo {
+    margin-left: 1%;
+  }
+  #home nav .logo img {
+    width: 120px;
+  }
+  #home nav .icon {
+    right: 1%;
+  }
+  #home nav .icon .select {
+    width: 130px;
+  }
+  #home nav .icon .button button {
+    margin-left: 5px;
+  }
+  #home .center {
+    width: 300px;
+    top: 30%;
+  }
+  #home .center h1 {
+    font-size: 30px;
+  }
+  #home .center h2 {
+    font-size: 15px;
+  }
+  #home .row {
+    width: 300px;
+    top: 50%;
+  }
+  #home .row h5 {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  #home .row input {
+    width: 100%;
+    margin-left: 20px;
+  }
+  #home .row button {
+    margin-left: 20px;
+  }
+}
+.center {
+  width: 550px;
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.center h1 {
+  font-size: 50px;
+}
+.center h2 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.row {
+  width: 750px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.row h5 {
+  color: white;
+  font-size: 17px;
+  margin: 20px 0 10px 0;
+}
+.row input {
+  width: 60%;
+  height: 60px;
+  padding: 10px;
+}
+.row button {
+  width: 30%;
+  height: 60px;
+  background-color: #DB0510;
+  color: white;
+  font-size: 24px;
+  border: none;
+}
+.row button:hover {
+  background-color: #f50915;
+}
+.row button i {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 900px) {
+  .row {
+    width: 450px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  .row h5 {
+    margin-top: 90px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 200;
+  }
+  .row input {
+    width: 90%;
+  }
+  .row button {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .center {
+    width: 500px;
+  }
+  .center h2 {
+    margin-top: 0;
+    font-size: 23px;
+    letter-spacing: 0;
+    word-spacing: 0;
+  }
+}
+.cnt {
+  height: 10px;
+  background-color: #222222;
+}
+
+.firstcnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  background-color: black;
+}
+.firstcnt #text1 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.firstcnt #text1 #div1 {
+  width: 100%;
+  color: white;
+  margin: 0 70px 0 70px;
+}
+.firstcnt #text1 #div1 h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.firstcnt #text1 #div1 h4 {
+  font-size: 24px;
+}
+.firstcnt #text2 {
+  width: 50%;
+  height: 70%;
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.firstcnt #text2 img {
+  width: 100%;
+  position: absolute;
+}
+.firstcnt #text2 video {
+  width: 75%;
+}
+.firstcnt #text2 #div2 {
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .firstcnt {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .firstcnt #text2 {
+    width: 60%;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  .firstcnt #text1 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 3%;
+  }
+  .firstcnt #text1 #div1 h1 {
+    font-size: 32px;
+  }
+  .firstcnt #text1 #div1 h4 {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .firstcnt #text1 #div1 h1 {
+    font-size: 22px;
+  }
+  .firstcnt #text1 #div1 h4 {
+    font-size: 18px;
+  }
+}
